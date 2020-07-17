@@ -1,0 +1,23 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: auto;
+  width: 100vw;
+  max-width: 300px;
+}
+
+.component-color {
+  display: flex;
+  margin-top: 100px;
+}
+
+.square-color {
+  margin: auto;
+  max-width: 150px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
