@@ -1,6 +1,6 @@
 # Color RGB builder
 
-This project is a simple builder of color RGB that use vanilha JavaScript for show the color.
+This project is a simple builder of color RGB that use vanilla JavaScript for show the color.
 
 ### Screenshot
 
