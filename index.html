@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="container">
+    <h1 class="text-center">Color RGB builder</h1>
     <div class="component-color">
       <div class="labels">
         <label>(R) Vermelho: </label>
@@ -19,11 +20,17 @@
         <input type="range" id="green" min="0" max="255">
         <input type="range" id="blue" min="0" max="255">
       </div>
+      <div class="input-value">
+        <input readonly type="text" id="inputRed"  value="0"/>
+        <input readonly type="text" id="inputGreen" value="0"/>
+        <input readonly type="text" id="inputBlue" value="0"/>
+      </div>
     </div>
     <div class="square-color">
 
     </div>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

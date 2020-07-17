@@ -2,10 +2,18 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+input {
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
 .container {
   margin: auto;
   width: 100vw;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .component-color {
@@ -20,4 +28,18 @@
   width: 100px;
   height: 100px;
   background-color: black;
+  border: solid 1px;
+}
+
+.controls {
+  max-width: 250px;
+}
+
+.input-value {
+  margin-left: 10px;
+  width: 80px;
+}
+
+.text-center {
+  text-align: center;
 }
